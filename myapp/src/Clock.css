@@ -1,0 +1,189 @@
+#container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+#clock{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border: 11px solid rgb(234,155,161);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+ }
+ #clock span{
+
+position: absolute;
+
+} 
+
+
+#A1{
+position:absolute;
+transform: rotate(calc(30deg*1));
+inset: 12px;
+text-align: center;
+}
+#A2{
+    position:absolute;
+    transform: rotate(calc(30deg*2));
+    inset: 12px;
+    }
+    #A3{
+        position:absolute;
+        transform: rotate(calc(30deg*3));
+        inset: 12px;
+        }
+        #A4{
+            position:absolute;
+            transform: rotate(calc(30deg*4));
+            inset: 12px;
+            }
+            #A5{
+                position:absolute;
+                transform: rotate(calc(30deg*5));
+                inset: 12px;
+                }
+                #A6{
+                    position:absolute;
+                    transform: rotate(calc(30deg*6));
+                    inset: 12px;
+                    }
+                    #A7{
+                        position:absolute;
+                        transform: rotate(calc(30deg*7));
+                        inset: 12px;
+                        }
+                        #A8{
+                            position:absolute;
+                            transform: rotate(calc(30deg*8));
+                            inset: 12px;
+                            }
+                            #A9{
+                                position:absolute;
+                                transform: rotate(calc(30deg*9));
+                                inset: 12px;
+                                }
+                                #A10{
+                                    position:absolute;
+                                    transform: rotate(calc(30deg*10));
+                                    inset: 12px;
+                                    }
+                                    #A11{
+                                        position:absolute;
+                                        transform: rotate(calc(30deg*11));
+                                        inset: 12px;
+                                        }
+                                        #A12{
+                                            position:absolute;
+                                            transform: rotate(calc(30deg*12));
+                                            inset: 12px;
+                                            }
+
+                                            *{
+                                                font-family: sans-serif;
+                                                font-size: 20px;
+                                            }
+
+   #btag1{
+transform: rotate(calc(-30deg*1));
+display: inline-block;
+color: rgb(183,29,61);
+
+}   
+b{
+    font-size: 30px;
+}                                       
+#btag2{
+    transform: rotate(calc(-30deg*2));
+    display: inline-block;
+    color: rgb(201,156,6);
+}   
+
+#btag3{
+        
+        transform: rotate(calc(-30deg*3));
+        display: inline-block;
+        font-size: 30px;
+font-weight: bolder;
+color: rgb(4,133,3);
+      }
+      #btag4{
+        transform: rotate(calc(-30deg*4));
+        display: inline-block;
+        color: rgb(5,40,108);
+      }
+      #btag5{
+        transform: rotate(calc(-30deg*5));
+        display: inline-block;
+      }
+      #btag6{
+        transform: rotate(calc(-30deg*6));
+        display: inline-block;
+        font-size: 30px;
+font-weight: bolder;
+color: rgb(69,153,189);
+      }
+      #btag7{
+        transform: rotate(calc(-30deg*7));
+        display: inline-block;
+        color: rgb(187,26,71);
+      }
+      #btag8{
+        transform: rotate(calc(-30deg*8));
+        display: inline-block;
+        color: rgb(201,156,6);
+      }
+      #btag9{
+        transform: rotate(calc(-30deg*9));
+        display: inline-block;
+        font-size: 30px;
+font-weight: bolder;
+color: rgb(4,133,3);
+      }
+      #btag10{
+        transform: rotate(calc(-30deg*10));
+        display: inline-block;
+        color: rgb(5,40,108);
+      }
+      #btag11{
+        transform: rotate(calc(-30deg*11));
+        display: inline-block;
+        color: rgb(189,84,1);
+      }
+      #btag12{
+        transform: rotate(calc(-30deg*12));
+        display: inline-block;
+        font-size: 30px;
+font-weight: bolder;
+color: rgb(69,153,189);
+      }
+
+      #clock::before{
+        content: "";
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background-color: rgb(239, 233, 233); 
+        z-index: 2;
+      }
+
+      .stick i{
+position: absolute;
+background-color: black;
+width: 9px;
+height: 76px;
+/* border-radius: 8px; */
+      }
+      .stick{
+        position:absolute;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
