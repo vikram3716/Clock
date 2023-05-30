@@ -18,7 +18,7 @@ justify-content: center;
  }
  #clock span{
 
-position: absolute;
+/* position: absolute; */
 
 } 
 
@@ -179,10 +179,10 @@ position: absolute;
 background-color: black;
 width: 9px;
 height: 76px;
-/* border-radius: 8px; */
+
       }
       .stick{
-        position:absolute;
+        /* position:absolute; */
         display: flex;
         align-items: flex-end;
         justify-content: center;
