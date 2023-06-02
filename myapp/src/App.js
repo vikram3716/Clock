@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
+import FormPropsTextFields from './Mi'
 import Chakra from './Chakra';
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
     <div className="App">
   <Clock/>
   <br/>
-  <Chakra />
+  
+  {/* <SignIn /> */}
+  <FormPropsTextFields />
     </div>
     </div>
   );
