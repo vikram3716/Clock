@@ -11,7 +11,7 @@ function App() {
   <Clock/>
   <br/>
   
-  {/* <SignIn /> */}
+  <SignIn />
   <FormPropsTextFields />
     </div>
     </div>
